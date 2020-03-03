@@ -10,7 +10,9 @@ class FilterServiceProvider extends ServiceProvider
 {
     protected const SCRIPT_FILE = __DIR__ . '/../dist/js/filter.js';
     protected static $availableTranslations = [
-        'de'
+        'de',
+        'en',
+        'ko',
     ];
 
     /**
